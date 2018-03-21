@@ -35,7 +35,7 @@ The node can be found in npm. To install it, go to your node red directory (usua
 npm install node-red-contrib-envirophat
 ```
 
-Note that you will need to restart Node-RED before the quadkey node will be loaded. On Raspberry Pi, you can do this with:
+Note that you will need to restart Node-RED before the node will be loaded. On Raspberry Pi, you can do this with:
 
 ```
 node-red-stop && node-red-start
