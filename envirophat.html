@@ -1,0 +1,31 @@
+<script type="text/x-red" data-template-name="envirophat">
+    
+</script>
+
+<script type="text/x-red" data-help-name="envirophat">
+    <p>A very simple node to push out readings from the Pimoroni Envirophat.</p>
+
+    <h3>Outputs</h3>
+    <dl class="message-properties">
+        <dt>msg.envirophat
+            <span class="property-type">object</span>
+        </dt>
+        <dd> the envirophat readings appended to the message as an object. </dd>
+    </dl>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('envirophat', {
+        category: 'output',
+        color: '#373a3f',
+        defaults: {
+            
+        },
+        inputs: 0,
+        outputs: 1,
+        icon: "white-globe.png",
+        label: function () {
+            return this.name || "envirophat";
+        },
+    });
+</script>

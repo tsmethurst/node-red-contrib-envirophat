@@ -1,0 +1,28 @@
+{
+  "name": "node-red-contrib-envirophat",
+  "version": "0.0.1",
+  "description": "A Node-RED node for Pimoroni's Envirophat.",
+  "dependencies": {
+    "python-shell": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsmethurst/node-red-contrib-envirophat"
+  },
+  "keywords": [
+    "node-red",
+    "Envirophat",
+    "pimoroni"
+  ],
+  "node-red": {
+    "nodes": {
+      "quadkey": "envirophat.js"
+    }
+  },
+  "author": {
+    "name" : "Tobi Smethurst",
+    "email" : "tobi.smethurst@klarrio.com"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/tsmethurst/node-red-contrib-envirophat#readme"
+}
