@@ -1,4 +1,4 @@
-# node-red-contrib-quadkey
+# node-red-contrib-envirophat
 
 A simple Node-RED node which runs a Python script to get readings from the Pimoroni Envirophat, then parses those readings as a Javascript object and appends them to a message.
 
