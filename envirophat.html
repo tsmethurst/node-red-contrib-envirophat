@@ -3,7 +3,10 @@
 </script>
 
 <script type="text/x-red" data-help-name="envirophat">
-    <p>A very simple node to push out readings from the Pimoroni Envirophat.</p>
+    <p>A very simple node to push out readings from the Pimoroni Envirophat.
+        Currently pushes out one message every half a second, but this can be
+        adjusted in script.py as time.sleep(numberOfSeconds).
+    </p>
 
     <h3>Outputs</h3>
     <dl class="message-properties">
@@ -16,7 +19,7 @@
 
 <script type="text/javascript">
     RED.nodes.registerType('envirophat', {
-        category: 'output',
+        category: 'input',
         color: '#C0C0C0',
         defaults: {
             
