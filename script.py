@@ -2,7 +2,7 @@ from envirophat import motion
 from envirophat import light
 from envirophat import weather
 from envirophat import leds
-import time
+import sys, time
 
 leds.off()
 
