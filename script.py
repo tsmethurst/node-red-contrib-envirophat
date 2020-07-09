@@ -22,4 +22,5 @@ while True:
             "heading": motion.heading()
                 }
     print(results)
+    sys.stdout.flush()
     time.sleep(0.5)
